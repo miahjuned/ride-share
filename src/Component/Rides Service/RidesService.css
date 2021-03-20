@@ -1,0 +1,19 @@
+ .service_contaiter{
+    width: 270PX;
+    height: 208PX;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    
+}
+ .service_contaiter h2{
+    color: #003940;
+    
+}
+
+.service_contaiter img{
+    width: 100%;
+    height: 80%;
+    background-color: violet;
+    
+}
