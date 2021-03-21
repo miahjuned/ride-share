@@ -1,0 +1,46 @@
+.destination_Container{
+    background-color: lightgray;
+    border-radius: 10px;
+}
+.destination_Header{
+    color: white;
+    background-color: tomato;
+    border-radius: 10px;
+    padding: 15px 0px;
+}
+.destination_Header h2{
+    padding-left: 10px;
+    margin-left: 10px;
+}
+.destination_Header .icon{
+    font-size: 85px;
+    padding-right: 25px;
+    color: wheat;
+}
+.destination_Body{
+    margin-top: 50px;
+}
+.destination_Body p{
+    background-color: white;
+    text-align: left;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.calender{
+    background-color: rgba(0, 128, 128, 0.425);
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.cardImg{
+    width: 50px;
+    margin-right: 20px;
+}
+.manIcon{
+    width: 20px;
+    margin-left: 20px;
+}
+.price{
+    margin-left: 100px;
+}

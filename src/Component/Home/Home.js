@@ -27,11 +27,3 @@ const Home = () => {
 };
 
 export default Home;
-
-
-// <Col md={4}>Ji</Col>
-//                    <Col md={4}>Ji</Col>
-//                    <Col md={4}>Ji</Col>
-//                    <Col md={4}>Ji</Col>
-//                    <Col md={4}>Ji</Col>
-//                    <Col md={4}>Ji</Col>
