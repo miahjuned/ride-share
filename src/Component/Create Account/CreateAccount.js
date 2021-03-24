@@ -1,6 +1,5 @@
 import React, { useContext, useState } from 'react';
-import { Button, Col, Container, Form, FormControl, FormGroup, FormText } from 'react-bootstrap';
-import FormCheckLabel from 'react-bootstrap/esm/FormCheckLabel';
+import { Button, Col, Container } from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
 import { googleSignIn, initializeSignIn , facebookSignIn, githubSignIn} from '../FirebaseManager/FirebaseManager';
 import './CreateAccount.css';

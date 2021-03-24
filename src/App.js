@@ -35,20 +35,19 @@ function App() {
           <Route path="/createaccoun">
             <CreateAccount></CreateAccount>
           </Route>
-          <PrivateRoute path="/destination">
+
+          <PrivateRoute path="/destination/:Id">
             <Destination></Destination>
           </PrivateRoute>
 
           <Route path="/search">
             <SearchResult></SearchResult>
           </Route>
-
-          <Route path="/destination/:rideServiceId">
-            <Destination></Destination>
-          </Route>
+          
           <Route path="/">
             <Home></Home>
           </Route>
+
         </Switch>
       </Router>
     </userContext.Provider>

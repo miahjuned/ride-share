@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import {Container, Row } from 'react-bootstrap';
 import './home.css';
 import Data from '../Data/DATA.json'
 import RidesService from '../Rides Service/RidesService';

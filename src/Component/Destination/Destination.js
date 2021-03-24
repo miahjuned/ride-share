@@ -7,21 +7,31 @@ import './Destination.css';
 import Map from '../../images/Map.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRoute } from '@fortawesome/free-solid-svg-icons';
-import { useParams } from 'react-router';
-import Data from '../Data/DATA.json';
+import { useParams } from 'react-router-dom';
 import manIcon from '../../images/peopleicon.png';
-import { Link } from 'react-router-dom';
+
+
+import Data from '../Data/DATA.json';
 
 
 const Destination = () => {
-    
     const [form, setForm] = useState(true);
-    const {rideServiceId} =useParams();
+
+    let {Id} = useParams();
+
     const [info, setInfo] = useState({});
-    useEffect(() =>{
+
+    useEffect(() => {
         setInfo(Data)
     }, [])
-    const rideService = Data.find(ride => ride.name == rideServiceId);
+
+    const rideService = Data.find(ride => ride.id == Id);
+
+    console.log("Ride Searvice", rideService);
+
+
+
+
 
 
     const [date, setDate] = useState(new Date());
